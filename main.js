@@ -198,7 +198,7 @@ const RenderButtons = (Choices, Answer) => {
     }
     setTimeout(() => {
       location.reload();
-    }, 200);
+    }, 1000);
   };
   Choices.map((item) => {
     var Button = document.createElement("button");
